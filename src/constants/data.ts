@@ -153,7 +153,7 @@ const cvData: CVData = {
             name: "Software Development Lifecycle",
             issuer: "University of Minnesota",
             url: "https://coursera.org/share/c106efa30a01385ccf15a064c6d37eae",
-            image: "/certificates/Sofware Development Lifecycle.jpeg",
+            image: "/certificates/Sotfware Development Lifecycle.jpeg",
         },
         {
             name: "User Experience Research and Design",
