@@ -6,7 +6,8 @@ import {
     CardTitle,
 } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Layers, ArrowUpRight } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Layers, ArrowUpRight, Github } from "lucide-react";
 import cvData from "@/constants/data";
 
 const accentColors = [
@@ -65,6 +66,20 @@ export default function ProjectsView() {
                                             </Badge>
                                         ))}
                                     </div>
+
+                                    {project.github && (
+                                        <Button
+                                            variant="outline"
+                                            size="sm"
+                                            asChild
+                                            className="mt-2 w-full gap-2 rounded-lg border-white/10 bg-white/5 text-xs font-medium text-muted-foreground transition-all hover:border-violet-500/30 hover:bg-violet-500/10 hover:text-foreground"
+                                        >
+                                            <a href={project.github} target="_blank" rel="noopener noreferrer">
+                                                <Github className="h-3.5 w-3.5" />
+                                                View on GitHub
+                                            </a>
+                                        </Button>
+                                    )}
                                 </CardContent>
                             </Card>
                         );

@@ -17,6 +17,7 @@ export interface Project {
     role: string;
     tech: string[];
     achievement: string;
+    github: string;
 }
 
 export interface Education {
@@ -122,6 +123,7 @@ const cvData: CVData = {
             ],
             achievement:
                 "Engineered an intelligent AI Chatbot using Vector DB to provide automated admin consultations. Architected management dashboards with shadcn/ui.",
+            github: "https://github.com/vietdungvo-dev/fe-sep490-pacsfr",
         },
         {
             title: "HIV Treatment Support Platform",
@@ -129,6 +131,7 @@ const cvData: CVData = {
             tech: ["React.js", "Vite", "TypeScript", "Tailwind CSS"],
             achievement:
                 "Developed client-side logic for doctor-patient communication and real-time prescription planning.",
+            github: "https://github.com/vietdungvo-dev/HIV-Treatment",
         },
         {
             title: "KOI Fish Delivery Logistics System",
@@ -136,6 +139,7 @@ const cvData: CVData = {
             tech: ["React.js", "Leaflet.js", "Shadcn/UI"],
             achievement:
                 "Integrated Leaflet.js for shortest-path calculation and shipping fee estimation.",
+            github: "https://github.com/vietdungvo-dev/Koi-Fish-Delivery",
         },
     ],
 
